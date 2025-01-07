@@ -75,7 +75,7 @@ A script for fetching metadata from internet archive.
 3. Run the script as is.
 
     ```powershell
-    PS C:> python main.py
+    (venv) PS C:> python main.py
     ```
 
 ### Customizing the script
