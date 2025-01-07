@@ -53,6 +53,22 @@ A script for fetching metadata from internet archive.
 
     - [Internet Archive Python Library Docs](https://archive.org/developers/internetarchive/index.html)
 
+8. Signup for an Internet Archive account (free).
+
+9. Configure the python library settings.
+
+    ```powershell
+    (venv) PS C:> ia configure
+    Enter your archive.org credentials below to configure 'ia'.
+
+    Email address: user@example.com
+    Password:
+
+    Config saved to: /home/user/.config/ia.ini
+    ```
+
+    - [Configuring Docs](https://archive.org/developers/internetarchive/quickstart.html#configuring)
+
 
 ## Quickstart
 
@@ -79,6 +95,10 @@ A script for fetching metadata from internet archive.
     ```
 
 ### Customizing the script
+
+#### search_items()
+
+- [search_items() docs](https://archive.org/developers/internetarchive/api.html#internetarchive.search_items)
 
 #### Change Collection
 
